@@ -1,0 +1,66 @@
+.RentingBuyPage {
+    .top-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .iswiper {
+        margin-top: 1.1rem;
+    }
+
+    .contain {
+        background: #fff;
+        padding: 0.4rem;
+        padding-top: 0;
+        font-size: 0.35rem;
+
+        .item {
+            padding: 0.4rem 0;
+            border-bottom: 1px solid #f0f0f0;
+            .img-wrap, img {
+                display: block;
+                position: relative;
+                width: 3rem;
+                height: 2rem;
+            }
+
+            .img-wrap {
+                margin-right: 0.4rem;
+                span {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    font-size: 0.3rem;
+                    background: rgba(0,0,0,0.4);
+                    color: #fff;
+                    text-align: center;
+                    line-height: 0.55rem;
+                }
+            }
+
+            .dec {
+                width: calc(100% - 3.5rem);
+                color: #787878;
+                .title {
+                    color: #000;
+                    font-size: 0.35rem;
+                    margin-bottom: 0.4rem;
+                }
+                .inf {
+                    display: block;
+                    width: 100%;
+                    font-size: 0.35rem;
+                    margin-bottom: 0.1rem;
+                    
+                    .price {
+                        color: #f44336;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
