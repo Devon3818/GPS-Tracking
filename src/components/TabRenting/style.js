@@ -21,5 +21,8 @@ export default StyleSheet.create({
   },
   'TabRenting nav tab i': {
     'fontSize': [{ 'unit': 'rem', 'value': 0.5 }]
+  },
+  'TabRenting nav on': {
+    'color': '#23abac'
   }
 });

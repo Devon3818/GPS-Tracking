@@ -1,0 +1,62 @@
+.RegisterPage {
+    position: fixed;
+    top: 1.4rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    padding: 0.5rem;
+
+    .ContainBox-component {
+        padding-top: 0.1rem;
+    }
+
+    .int-wrap {
+        margin-bottom: 0.4rem;
+        border-bottom: 1px solid #ededed;
+        padding: 0.2rem 0;
+
+        span {
+            width: 1.6rem;
+            color: #333;
+            line-height: 1rem;
+        }
+
+        input {
+            width: calc( 100% - 1.6rem );
+            outline: none;
+            border: none;
+            line-height: 1rem;
+            color: #666;
+        }
+
+        .yzm {
+            width: calc( 100% - 4.4rem );
+        }
+
+        .yzm-p {
+            width: 2rem;
+            line-height: 0.8rem;
+            background: #23abac;
+            color: #fff;
+            font-size: 0.3rem;
+            text-align: center;
+        }
+
+    }
+
+    .login-wrap {
+        margin-bottom: 1rem;
+    }
+
+    .log {
+        margin-bottom: 0.8rem;
+        border-radius: 0.2rem;
+        width: 100%;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        background: #23abac;
+        color: #fff;
+        text-align: center;
+    }
+}

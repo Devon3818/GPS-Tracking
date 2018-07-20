@@ -1,0 +1,31 @@
+.backHeader {
+    header {
+        box-sizing: border-box;
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 1.4rem;
+        width: 100%;
+        padding: 0.1rem 0.4rem;
+        background: #fff;
+        -box-shadow: -4px 0px 10px 0 rgba(7, 17, 27, 0.1);
+
+        .back {
+            width: 1.2rem;
+            height: 1.2rem;
+            text-align: center;
+            line-height: 1.1rem;
+            i {
+                font-size: 0.6rem;
+                line-height: 1.2rem;
+            }
+        }
+
+        .aply {
+            height: 1.2rem;
+            width: 60%;
+        }
+
+    }
+}

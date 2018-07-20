@@ -1,5 +1,5 @@
 <template>
-    <div class="RentingBuyPage">
+    <div class="HouseBuyPage">
 
         <md-drop-menu
         class="top-nav"
@@ -24,7 +24,7 @@
             <router-link to="/RBuyShow">
             <div class="item clear">
                 <div class="fl img-wrap">
-                    <img src="https://img1.mukewang.com/5b5188020001677306000338-590-330.jpg" />
+                    <img src="https://img2.mukewang.com/5b4ed6590001d9ee06000338-590-330.jpg" />
                     <span>出售</span>
                 </div>
                 <div class="dec fl">
@@ -41,7 +41,7 @@
             <router-link to="/RBuyShow">
             <div class="item clear">
                 <div class="fl img-wrap">
-                    <img src="https://img1.mukewang.com/5b5188020001677306000338-590-330.jpg" />
+                    <img src="https://img2.mukewang.com/5b4ed6590001d9ee06000338-590-330.jpg" />
                     <span>出售</span>
                 </div>
                 <div class="dec fl">
@@ -58,7 +58,7 @@
             <router-link to="/RBuyShow">
             <div class="item clear">
                 <div class="fl img-wrap">
-                    <img src="https://img1.mukewang.com/5b5188020001677306000338-590-330.jpg" />
+                    <img src="https://img2.mukewang.com/5b4ed6590001d9ee06000338-590-330.jpg" />
                 </div>
                 <div class="dec fl">
                     <p class="title">天河区小新塘酒店式公寓</p>
@@ -78,7 +78,7 @@
 
 <script>
 export default {
-    name: 'RentingBuyPage',
+    name: 'HouseBuyPage',
     data(){
         return {
             isContentShow: false,
