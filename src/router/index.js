@@ -29,16 +29,31 @@ var router = new Router({
 		}]
 	},
 	{
+		//卖方详情
 		path: '/RBuyShow',
 		name: 'RBuyShow',
 		component: resolve => require(['@/page/RentingBuyShowPage/RentingBuyShowPage'], resolve)
 	},
 	{
+		//卖房-发布
+		path: '/sendHouse',
+		name: 'SendHouse',
+		component: resolve => require(['@/page/sendHousePage/sendHousePage'], resolve)
+	},
+	{
+		//购房-发布
+		path: '/purchase',
+		name: 'Purchase',
+		component: resolve => require(['@/page/PurchasePage/PurchasePage'], resolve)
+	},
+	{
+		//登录
 		path: '/login',
 		name: 'Login',
 		component: resolve => require(['@/page/LoginPage/LoginPage'], resolve)
 	},
 	{
+		//注册
 		path: '/reg',
 		name: 'Reg',
 		component: resolve => require(['@/page/RegisterPage/RegisterPage'], resolve)
