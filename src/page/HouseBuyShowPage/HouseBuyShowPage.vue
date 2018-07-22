@@ -1,5 +1,5 @@
 <template>
-    <div class="RentingBuyShowPage">
+    <div class="HouseBuyShowPage">
         <ContainBox>
             
             <md-swiper
@@ -110,7 +110,7 @@ import moment from 'moment';
 var qs = require('qs');
 
 export default {
-    name: 'RentingBuyShowPage',
+    name: 'HouseBuyShowPage',
     data(){
         return {
             id: this.$route.params['id'],

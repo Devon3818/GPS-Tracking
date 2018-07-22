@@ -29,8 +29,14 @@ var router = new Router({
 		}]
 	},
 	{
-		//卖方详情
-		path: '/RBuyShow',
+		//卖房详情
+		path: '/HBuyShow/:id',
+		name: 'HBuyShow',
+		component: resolve => require(['@/page/HouseBuyShowPage/HouseBuyShowPage'], resolve)
+	},
+	{
+		//租房详情
+		path: '/RBuyShow/:id',
 		name: 'RBuyShow',
 		component: resolve => require(['@/page/RentingBuyShowPage/RentingBuyShowPage'], resolve)
 	},

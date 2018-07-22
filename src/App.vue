@@ -12,6 +12,11 @@ export default {
 </script>
 
 <style>
+
+.md-radio .md-field .md-field-item {
+        padding: 0;
+        padding-left: 0.4rem;
+}
 * {
   margin: 0;
   padding: 0;
