@@ -1,0 +1,99 @@
+.HealthShowPage {
+    .md-swiper {
+        height: 7rem;
+    }
+
+    .banner-item {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .md-swiper-item a,.md-swiper-item img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .top {
+        background: #fff;
+        padding: 0.4rem;
+        margin-bottom: 0.4rem;
+
+        .title {
+            font-size: 0.4rem;
+            font-weight: 700;
+            line-height: 0.6rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .text {
+            color: #999;
+        }
+
+    }
+
+    .contain {
+        padding: 0.4rem;
+        background: #fff;
+
+        .tab-nav {
+            display: flex;
+            border-bottom: 1px solid #ededed;
+            span {
+                position: relative;
+                flex: 1;
+                padding-bottom: 0.4rem;
+                text-align: center;
+            }
+
+            .on {
+                color: #4f9ead;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 1.5rem;
+                    height: 4px;
+                    background: #4f9ead;
+                    position: absolute;
+                    bottom: 0.2rem;
+                    left: 1.65rem;
+                }
+            }
+
+        }
+
+        .tabs {
+            min-height: 7rem;
+            padding-top: 0.4rem;
+            line-height: 0.6rem;
+            margin-bottom: 1.5rem;
+        }
+
+    }
+
+    .buy {
+        box-shadow: -4px 0 10px 0 rgba(7,17,27,.1);
+        padding-left: 0.4rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 1.4rem;
+        line-height: 1.4rem;
+        background: #fff;
+
+        .price {
+            span {
+                color: #ee7b30;
+            }
+        }
+
+        .tobuy {
+            background: #ee7b30;
+            width: 3.5rem;
+            text-align: center;
+            color: #fff;
+        }
+
+    }
+
+}

@@ -52,6 +52,60 @@ var router = new Router({
 		name: 'Purchase',
 		component: resolve => require(['@/page/PurchasePage/PurchasePage'], resolve)
 	},
+
+
+
+	//=========================智慧生活==========================
+	//智慧生活
+	{
+		//首页
+		path: '/wit',
+		name: 'Wit',
+		component: resolve => require(['@/page/WitPage/WitPage'], resolve)
+	},
+	{
+		//详情
+		path: '/wit-show',
+		name: 'WitShow',
+		component: resolve => require(['@/page/WitShowPage/WitShowPage'], resolve)
+	},
+	//====================================================
+
+
+
+	//=========================大健康==========================
+	//大健康
+	{
+		//首页
+		path: '/health',
+		name: 'Health',
+		component: resolve => require(['@/page/HealthPage/HealthPage'], resolve)
+	},
+	{
+		//详情
+		path: '/health-show',
+		name: 'HealthShow',
+		component: resolve => require(['@/page/HealthShowPage/HealthShowPage'], resolve)
+	},
+	//====================================================
+
+	//=========================人才驿站==========================
+	//人才驿站
+	{
+        path: '/talent',
+		component: resolve => require(['@/page/TalentPage/TalentPage'], resolve),
+		children: [
+		{
+			path: 'talentJob',
+			component: resolve => require(['@/page/TalentJobPage/TalentJobPage'], resolve)
+		},
+		{
+			path: 'talentResume',
+			component: resolve => require(['@/page/TalentResumePage/TalentResumePage'], resolve)
+		}]
+	},
+	//====================================================
+
 	{
 		//登录
 		path: '/login',
