@@ -1,4 +1,4 @@
-.TalentResumePage {
+.LabourJobPage {
     padding-top: 3.1rem;
     .flex-bar {
         z-index: 20;
@@ -62,54 +62,48 @@
             display: block;
             padding: 0.4rem;
             background: #fff;
-            border-bottom: 1px solid #ededed;
+            margin-bottom: 0.4rem;
 
-            .uimg {
-                width: 1.5rem;
-                height: 1.5rem;
-                border-radius: 100%;
-                margin-right: 0.4rem;
-            }
-
-            .info {
-                width: calc(100% - 1.9rem);
-                height: 1.5rem;
-                overflow: hidden;
-
-                .top {
-                    margin-bottom: 0.2rem;
-                    .name {
-                        font-size: 0.4rem;
-                        font-weight: 700;
-                        margin-right: 0.4rem
-                    }
-
-                    .sex {
-                        font-size: 0.35rem;
-                        margin-right: 0.4rem;
-                    }
-
-                    .pi {
-                        color: #ec613e;
-                        font-size: 0.35rem;
-                    }
+            .top {
+                margin-bottom: 0.2rem;
+                .name {
+                    font-size: 0.4rem;
+                    font-weight: 700;
                 }
-
-                .dec {
-                    font-size: 0.35rem;
-                    color: #999;
-                    margin-bottom: 0.2rem;
-                }
-
                 .city {
-                    font-size: 0.35rem;
+                    font-size: 0.3rem;
+                    background: #f1f1f1;
                     color: #999;
-                    i {
-                        color: #ec613e;
-                        font-size: 0.35rem;
-                    }
+                    padding: 0.1rem 0.2rem;
                 }
             }
+
+            .dec {
+                margin-bottom: 0.2rem;
+                color: #999;
+                .price {
+                    color: #ff5722;
+                }
+            }
+
+            .cpy {
+                color: #999;
+                margin-bottom: 0.4rem;
+            }
+
+            ul {
+                padding-top: 0.2rem;
+                li {
+                    border: 1px solid #5aa9b3;
+                    border-radius: 0.2rem;
+                    color: #5aa9b3;
+                    font-size: 0.3rem;
+                    padding: 0.15rem 0.2rem;
+                    margin-right: 0.2rem;
+                }
+            }
+
+
         }
     }
 

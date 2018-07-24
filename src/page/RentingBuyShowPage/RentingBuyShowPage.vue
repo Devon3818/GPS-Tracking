@@ -80,7 +80,7 @@
 
             </div>
 
-            <p class="tgId"><span>托管ID：</span> {{idata.hosting_show}}}</p>
+            <p class="tgId"><span>托管ID：</span> {{idata.hosting_show}}</p>
 
         </ContainBox>
 

@@ -1,0 +1,98 @@
+.WitFireShowPage {
+    
+    .top {
+        padding: 0.4rem;
+        background: #fff;
+        margin-bottom: 0.4rem;
+
+        .title {
+            font-size: 0.4rem;
+            font-weight: 700;
+            line-height: 0.6rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .time {
+            color: #999;
+        }
+        
+    }
+
+    .dec {
+        padding: 0.4rem;
+        background: #fff;
+        line-height: 0.7rem;
+        margin-bottom: 0.4rem;
+
+        .title {
+            margin-bottom: 0.2rem;
+            color: #5cabb2;
+            padding-bottom: 0.2rem;
+            border-bottom: 1px solid #ededed;
+        }
+
+    }
+
+    .tgId {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+
+        span {
+            color: #23abac;
+        }
+
+    }
+
+
+    .flex-nav {
+        box-shadow: -4px 0 10px 0 rgba(7,17,27,.1);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 1.4rem;
+        background: #fff;
+
+        .ubasic {
+            padding: 0.2rem;
+            img {
+                width: 1rem;
+                height: 1rem;
+                border-radius: 100%;
+            }
+    
+            .uname {
+                line-height: 1rem;
+                margin-left: 0.2rem;
+                font-weight: 700;
+            }
+        }
+
+        .bar {
+            display: flex;
+            width: 5rem;
+            height: 100%;
+
+            .it {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .call {
+                background: #23abac;
+                color: #fff;
+            }
+        }
+
+        
+
+    }
+
+}

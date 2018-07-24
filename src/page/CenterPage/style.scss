@@ -1,0 +1,46 @@
+.CenterPage {
+    
+    .top {
+        line-height: 1.4rem;
+        background: #23abac;
+        color: #fff;
+        padding:0.5rem;
+        img {
+            width: 1.4rem;
+            height: 1.4rem;
+            border-radius: 100%;
+            margin-right: 0.4rem;
+        }
+    }
+    
+    .nav {
+        background: #fff;
+        display: flex;
+        margin-bottom: 0.4rem;
+
+        .item {
+            padding: 0.4rem 0;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            i {
+                font-size: 0.5rem;
+                margin-bottom: 0.2rem;
+            }
+        }
+    }
+
+    .order {
+        padding: 0.4rem;
+        background: #fff;
+
+        .title {
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid #ededed;
+        }
+    }
+
+}

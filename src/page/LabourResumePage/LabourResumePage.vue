@@ -1,5 +1,5 @@
 <template>
-    <div class="TalentResumePage">
+    <div class="LabourResumePage">
 
         <div class="flex-bar">
             <div class="btns">
@@ -16,7 +16,6 @@
             <nav>
                 <span>区域 <i class="iconfont icon-moreinfo-copy"></i> </span>
                 <span>性别 <i class="iconfont icon-moreinfo-copy"></i> </span>
-                <span>薪资 <i class="iconfont icon-moreinfo-copy"></i> </span>
                 <span>更多 <i class="iconfont icon-moreinfo-copy"></i> </span>
             </nav>
 
@@ -36,74 +35,66 @@
 
         <div class="contain">
 
-            <router-link to="/resume" class="item clear">
+            <router-link to="/resume-labour" class="item clear">
                 <img class="uimg fl" src="https://avatars1.githubusercontent.com/u/11835988?s=460&v=4" alt="">
                 <div class="info fl">
                     <div class="top clear">
                         <p class="name fl">张爱国</p>
                         <i class="iconfont icon-nan1 fl sex"></i>
-                        <p class="fl age">25岁</p>
-                        <p class="fr pi">匹配度70%</p>
                     </div>
                     <p class="dec">
-                        本科 | 1-3年 | 3000-5000 | 销售代表
+                        机床技工
                     </p>
                     <p class="city">
-                        <i class="iconfont icon-dingwei"></i> 广州
+                        <i class="iconfont icon-dingwei"></i> 广州天河
                     </p>
                 </div>
             </router-link>
 
-            <router-link to="/resume" class="item clear">
+            <router-link to="/resume-labour" class="item clear">
                 <img class="uimg fl" src="https://avatars1.githubusercontent.com/u/11835988?s=460&v=4" alt="">
                 <div class="info fl">
                     <div class="top clear">
                         <p class="name fl">张爱国</p>
                         <i class="iconfont icon-nan1 fl sex"></i>
-                        <p class="fl age">25岁</p>
-                        <p class="fr pi">匹配度70%</p>
                     </div>
                     <p class="dec">
-                        本科 | 1-3年 | 3000-5000 | 销售代表
+                        机床技工
                     </p>
                     <p class="city">
-                        <i class="iconfont icon-dingwei"></i> 广州
+                        <i class="iconfont icon-dingwei"></i> 广州天河
                     </p>
                 </div>
             </router-link>
 
-            <router-link to="/resume" class="item clear">
+            <router-link to="/resume-labour" class="item clear">
                 <img class="uimg fl" src="https://avatars1.githubusercontent.com/u/11835988?s=460&v=4" alt="">
                 <div class="info fl">
                     <div class="top clear">
                         <p class="name fl">张爱国</p>
                         <i class="iconfont icon-nan1 fl sex"></i>
-                        <p class="fl age">25岁</p>
-                        <p class="fr pi">匹配度70%</p>
                     </div>
                     <p class="dec">
-                        本科 | 1-3年 | 3000-5000 | 销售代表
+                        机床技工
                     </p>
                     <p class="city">
-                        <i class="iconfont icon-dingwei"></i> 广州
+                        <i class="iconfont icon-dingwei"></i> 广州天河
                     </p>
                 </div>
             </router-link>
 
-            <router-link to="/resume" class="item clear">
+            <router-link to="/resume-labour" class="item clear">
                 <img class="uimg fl" src="https://avatars1.githubusercontent.com/u/11835988?s=460&v=4" alt="">
                 <div class="info fl">
                     <div class="top clear">
                         <p class="name fl">张爱国</p>
                         <i class="iconfont icon-nan1 fl sex"></i>
-                        <p class="fl age">25岁</p>
-                        <p class="fr pi">匹配度70%</p>
                     </div>
                     <p class="dec">
-                        本科 | 1-3年 | 3000-5000 | 销售代表
+                        机床技工
                     </p>
                     <p class="city">
-                        <i class="iconfont icon-dingwei"></i> 广州
+                        <i class="iconfont icon-dingwei"></i> 广州天河
                     </p>
                 </div>
             </router-link>
@@ -115,7 +106,7 @@
 
 <script>
 export default {
-    name: 'TalentResumePage',
+    name: 'LabourResumePage',
     data(){
         return {
             pic: [

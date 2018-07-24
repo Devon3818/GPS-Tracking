@@ -1,0 +1,50 @@
+.WitFirePage {
+    padding-bottom: 2rem;
+
+    nav {
+        display: flex;
+        z-index: 10;
+        background: #fff;
+        height: 1.2rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-bottom: 1px solid #ededed;
+        span {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .md-swiper {
+        height: 5rem;
+    }
+
+    .banner-item {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .md-swiper-item a,.md-swiper-item img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .item {
+        display: block;
+        background: #fff;
+        padding: 0.4rem;
+        border-bottom: 1px solid #ededed;
+        .title {
+            margin-bottom: 0.4rem;
+            font-weight: 700;
+        }
+        .address {
+            font-size: 0.35rem;
+        }
+    }
+}

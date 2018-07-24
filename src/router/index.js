@@ -89,6 +89,24 @@ var router = new Router({
 	},
 	//====================================================
 
+
+	//=========================智慧消防==========================
+	//智慧消防
+	{
+		//首页
+		path: '/wit-fire',
+		name: 'WitFire',
+		component: resolve => require(['@/page/WitFirePage/WitFirePage'], resolve)
+	},
+	{
+		//详情
+		path: '/wit-fire-show',
+		name: 'WitFireShow',
+		component: resolve => require(['@/page/WitFireShowPage/WitFireShowPage'], resolve)
+	},
+	//====================================================
+
+
 	//=========================人才驿站==========================
 	//人才驿站
 	{
@@ -104,7 +122,52 @@ var router = new Router({
 			component: resolve => require(['@/page/TalentResumePage/TalentResumePage'], resolve)
 		}]
 	},
+	{
+		//简历查看
+		path: '/resume',
+		name: 'Resume',
+		component: resolve => require(['@/page/ResumePage/ResumePage'], resolve)
+	},
+	{
+		//职位详情
+		path: '/job',
+		name: 'Job',
+		component: resolve => require(['@/page/JobPage/JobPage'], resolve)
+	},
 	//====================================================
+
+
+
+	//=========================劳务中介==========================
+	//劳务中介
+	{
+        path: '/labour',
+		component: resolve => require(['@/page/LabourPage/LabourPage'], resolve),
+		children: [
+		{
+			path: 'labourJob',
+			component: resolve => require(['@/page/LabourJobPage/LabourJobPage'], resolve)
+		},
+		{
+			path: 'labourResume',
+			component: resolve => require(['@/page/LabourResumePage/LabourResumePage'], resolve)
+		}]
+	},
+	{
+		//简历查看
+		path: '/resume-labour',
+		name: 'ResumeLabour',
+		component: resolve => require(['@/page/ResumeLabourPage/ResumeLabourPage'], resolve)
+	},
+	{
+		//职位详情
+		path: '/job-labour',
+		name: 'JoLabour',
+		component: resolve => require(['@/page/JobLabourPage/JobLabourPage'], resolve)
+	},
+	//====================================================
+
+
 
 	{
 		//登录
@@ -117,6 +180,12 @@ var router = new Router({
 		path: '/reg',
 		name: 'Reg',
 		component: resolve => require(['@/page/RegisterPage/RegisterPage'], resolve)
+	},
+	{
+		//用户中心
+		path: '/center',
+		name: 'Center',
+		component: resolve => require(['@/page/CenterPage/CenterPage'], resolve)
 	}
 	]
 });

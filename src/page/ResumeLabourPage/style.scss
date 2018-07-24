@@ -1,0 +1,170 @@
+.ResumeLabourPage {
+
+    .item {
+        display: block;
+        padding: 0.4rem;
+        background: #fff;
+        border-bottom: 1px solid #ededed;
+
+        .uimg {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 100%;
+            margin-right: 0.4rem;
+        }
+
+        .info {
+            width: calc(100% - 1.9rem);
+            height: 1.5rem;
+            overflow: hidden;
+
+            .top {
+                margin-bottom: 0.65rem;
+                .name {
+                    font-size: 0.4rem;
+                    font-weight: 700;
+                    margin-right: 0.4rem
+                }
+
+                .sex {
+                    font-size: 0.35rem;
+                    margin-right: 0.4rem;
+                }
+
+                .pi {
+                    color: #999;
+                    font-size: 0.35rem;
+                }
+            }
+
+            .dec {
+                font-size: 0.35rem;
+                color: #999;
+                margin-bottom: 0.2rem;
+                i {
+                    font-size: 0.6rem;
+                    position: relative;
+                    top: -0.2rem;
+                }
+            }
+
+            .city {
+                font-size: 0.35rem;
+                color: #999;
+                i {
+                    color: #ec613e;
+                    font-size: 0.35rem;
+                }
+            }
+        }
+    }
+
+    .rm-title {
+        padding: 0.4rem;
+        color: #5cabb2;
+        font-weight: 700;
+    }
+
+    .rm-div {
+        padding: 0.4rem;
+        background: #fff;
+    }
+
+    .job {
+        p {
+            line-height: 0.8rem;
+            font-size: 0.4rem;
+            i {
+                margin-right: 0.2rem;
+                color: #5cabb2;
+            }
+            span {
+                color: #ec613e;
+            }
+        }
+    }
+
+    .work {
+        .work-step {
+            border-left: 2px solid #ededed;
+            padding-left: 0.4rem;
+            padding-bottom: 0.4rem;
+            position: relative;
+            
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: -0.12rem;
+                width: 0.24rem;
+                height: 0.24rem;
+                background: #ededed;
+                border-radius: 100%;
+            }
+
+            .top {
+                margin-bottom: 0.2rem;
+            }
+        }
+        
+    }
+
+    .edu {
+        .edu-step {
+            border-left: 2px solid #ededed;
+            padding-left: 0.4rem;
+            padding-bottom: 0.4rem;
+            position: relative;
+            
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: -0.12rem;
+                width: 0.24rem;
+                height: 0.24rem;
+                background: #ededed;
+                border-radius: 100%;
+            }
+
+            .mb {
+                margin-bottom: 0.2rem;
+            }
+
+            .int {
+                color: #999;
+            }
+        }
+    }
+
+    .dec {
+        line-height: 0.6rem;
+        padding-bottom: 1rem;
+    }
+
+    .tgId {
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+
+        span {
+            color: #23abac;
+        }
+
+    }
+
+    .contact {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        line-height: 1.4rem;
+        text-align: center;
+        background: #23abac;
+        color: #fff;
+    }
+
+}

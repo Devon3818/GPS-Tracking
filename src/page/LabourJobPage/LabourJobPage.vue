@@ -1,11 +1,25 @@
 <template>
-    <div class="TalentJobPage">
+    <div class="LabourJobPage">
 
-        <nav>
-            <span>区域 <i class="iconfont icon-moreinfo-copy"></i> </span>
-            <span>薪资 <i class="iconfont icon-moreinfo-copy"></i> </span>
-            <span>更多 <i class="iconfont icon-moreinfo-copy"></i> </span>
-        </nav>
+        <div class="flex-bar">
+            <div class="btns">
+                <div class="bt">
+                    <i class="iconfont icon-jianli"></i>
+                    <p>发布简历</p>
+                </div>
+                <div class="bt">
+                    <i class="iconfont icon-fabu"></i>
+                    <p>我的发布</p>
+                </div>
+            </div>
+
+            <nav>
+                <span>区域 <i class="iconfont icon-moreinfo-copy"></i> </span>
+                <span>薪资 <i class="iconfont icon-moreinfo-copy"></i> </span>
+                <span>更多 <i class="iconfont icon-moreinfo-copy"></i> </span>
+            </nav>
+
+        </div>
 
         <md-swiper
         class="iswiper"
@@ -21,7 +35,7 @@
 
         <div class="contain">
 
-            <router-link to="/job" class="item clear">
+            <router-link to="/job-labour" class="item clear">
                 <div class="basic">
                     <div class="top clear">
                         <p class="name fl">高薪招医药代表</p>
@@ -32,13 +46,9 @@
                     </p>
                     <p class="cpy">重庆希尔安药业有限公司</p>
                 </div>
-                <ul class="clear">
-                    <li class="fl">五金一险</li>
-                    <li class="fl">包吃包住</li>
-                </ul>
             </router-link>
 
-            <router-link to="/job" class="item clear">
+            <router-link to="/job-labour" class="item clear">
                 <div class="basic">
                     <div class="top clear">
                         <p class="name fl">高薪招医药代表</p>
@@ -49,13 +59,9 @@
                     </p>
                     <p class="cpy">重庆希尔安药业有限公司</p>
                 </div>
-                <ul class="clear">
-                    <li class="fl">五金一险</li>
-                    <li class="fl">包吃包住</li>
-                </ul>
             </router-link>
 
-            <router-link to="/resume" class="item clear">
+            <router-link to="/job-labour" class="item clear">
                 <div class="basic">
                     <div class="top clear">
                         <p class="name fl">高薪招医药代表</p>
@@ -66,10 +72,6 @@
                     </p>
                     <p class="cpy">重庆希尔安药业有限公司</p>
                 </div>
-                <ul class="clear">
-                    <li class="fl">五金一险</li>
-                    <li class="fl">包吃包住</li>
-                </ul>
             </router-link>
             
         </div>
@@ -79,7 +81,7 @@
 
 <script>
 export default {
-    name: 'TalentJobPage',
+    name: 'LabourJobPage',
     data(){
         return {
             pic: [

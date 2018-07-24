@@ -1,0 +1,92 @@
+.JobPage {
+    
+    .top {
+        padding: 0.4rem;
+        background: #fff;
+        border-bottom: 1px solid #ededed;
+
+        .title {
+            margin-bottom: 0.2rem;
+            span {
+                font-weight: 700;
+            }
+        }
+
+        .price {
+            color: #db6559;
+            margin-bottom: 0.2rem;
+        }
+
+        .time {
+            color: #999;
+            font-size: 0.35rem;
+        }
+    }
+
+    .rm-title {
+        padding: 0.4rem;
+        color: #5cabb2;
+        font-weight: 700;
+    }
+
+    .text {
+        padding: 0.4rem;
+        background: #fff;
+    }
+
+    .u {
+        line-height: 0.7rem;
+
+        .contact span {
+            position: relative;
+            top: -0.05rem;
+            margin-left: 0.2rem;
+            font-size: 0.3rem;
+            background: #5aa8b4;
+            color: #fff;
+            padding: 0.1rem 0.2rem;
+            border-radius: 0.1rem;
+        }
+    }
+
+    .job-dec {
+        padding: 0.4rem;
+        background: #fff;
+        p {
+            margin-bottom: 0.25rem;
+
+            span {
+                font-size: 0.3rem;
+                color: #5aa8b4;
+                border: 1px solid #5aa8b4;
+                padding: 0.05rem 0.2rem;
+                margin-right: 0.4rem;
+                border-radius: 0.1rem;
+            }
+        }
+    }
+
+    .tgId {
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+
+        span {
+            color: #23abac;
+        }
+
+    }
+
+    .aply {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        line-height: 1.4rem;
+        text-align: center;
+        background: #23abac;
+        color: #fff;
+    }
+
+}
