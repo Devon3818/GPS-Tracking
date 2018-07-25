@@ -5,9 +5,22 @@
 </template>
 
 <script>
+import getCurrentCityName from '@/utils/getCurrentCityName'
 
 export default {
-  name: 'app'
+  name: 'app',
+  data(){
+    return {}
+  },
+  created() {
+    getCurrentCityName().then(name=>{
+      console.log(name)
+      this.$store.dispatch('setCityName', name).then(() => {
+          
+      })
+    })
+    console.log()
+  },
 }
 </script>
 

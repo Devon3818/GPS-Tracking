@@ -1,6 +1,5 @@
 import axios from 'axios'
 import store from '@/store'
-import { getToken } from '@/utils/auth'
 
 var service = axios.create({
     baseURL: 'http://shunfengche.qishare.cn/windmillsteward',

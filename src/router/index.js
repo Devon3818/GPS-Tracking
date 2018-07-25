@@ -47,6 +47,12 @@ var router = new Router({
 		component: resolve => require(['@/page/sendHousePage/sendHousePage'], resolve)
 	},
 	{
+		//卖房-发布-区域选择
+		path: '/city-chose',
+		name: 'CityChose',
+		component: resolve => require(['@/page/CityChosePage/CityChosePage'], resolve)
+	},
+	{
 		//购房-发布
 		path: '/purchase',
 		name: 'Purchase',

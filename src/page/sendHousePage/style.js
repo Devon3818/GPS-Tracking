@@ -2,12 +2,22 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   'sendHousePage banner': {
+    'position': 'relative',
     'width': [{ 'unit': '%H', 'value': 1 }],
     'height': [{ 'unit': 'rem', 'value': 6 }],
     'background': '#999',
     'display': 'flex',
     'justifyContent': 'center',
-    'alignItems': 'center'
+    'alignItems': 'center',
+    'overflow': 'hidden'
+  },
+  'sendHousePage banner #ifile': {
+    'position': 'absolute',
+    'width': [{ 'unit': '%H', 'value': 1 }],
+    'height': [{ 'unit': '%V', 'value': 1 }],
+    'top': [{ 'unit': 'px', 'value': 0 }],
+    'left': [{ 'unit': 'px', 'value': 0 }],
+    'opacity': '0'
   },
   'sendHousePage banner upimg tip': {
     'color': '#fff'
@@ -40,13 +50,25 @@ export default StyleSheet.create({
   'sendHousePage iform inp-wrap input': {
     'outline': 'none',
     'border': [{ 'unit': 'string', 'value': 'none' }],
-    'width': [{ 'unit': '%H', 'value': 0.7 }],
+    'width': [{ 'unit': '%H', 'value': 0.6 }],
     'textAlign': 'right',
     'lineHeight': [{ 'unit': 'rem', 'value': 1 }],
     'height': [{ 'unit': 'rem', 'value': 1 }]
   },
+  'sendHousePage iform inp-wrap hx': {
+    'width': [{ 'unit': 'rem', 'value': 3 }]
+  },
+  'sendHousePage iform inp-wrap hx sm-inp': {
+    'width': [{ 'unit': 'rem', 'value': 1.5 }]
+  },
+  'sendHousePage iform inp-wrap hx input': {
+    'width': [{ 'unit': '%H', 'value': 0.6 }]
+  },
   'sendHousePage iform inp-wrap span icon-bixutian': {
     'color': 'red'
+  },
+  'sendHousePage iform inp-wrap text': {
+    'marginLeft': [{ 'unit': 'rem', 'value': 0.3 }]
   },
   'sendHousePage iform houseImg': {
     'padding': [{ 'unit': 'rem', 'value': 0.4 }, { 'unit': 'rem', 'value': 0.4 }, { 'unit': 'rem', 'value': 0.4 }, { 'unit': 'rem', 'value': 0.4 }],
